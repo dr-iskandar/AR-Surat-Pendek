@@ -103,6 +103,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in canvasComponents)
                 component.enabled = true;
         }
+
+        gameObject.GetComponent<AudioSource>().Play();
     }
 
 
@@ -125,6 +127,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Disable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = false;
+        }
+        if (gameObject.GetComponent<AudioSource>() != null)
+        {
+            gameObject.GetComponent<AudioSource>().Stop();
         }
     }
 
