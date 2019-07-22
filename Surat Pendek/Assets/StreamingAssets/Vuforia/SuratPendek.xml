@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="10Al-Quraisy" size="1.000000 1.000000" />
+    <ImageTarget name="9Al-Maun" size="1.000000 1.000000" />
+    <ImageTarget name="8Al-Kausar" size="1.000000 1.000000" />
+    <ImageTarget name="7Al-Kafirun" size="1.000000 1.000000" />
+    <ImageTarget name="6An-Nasr" size="1.000000 1.000000" />
+    <ImageTarget name="5Al-Lahab" size="1.000000 1.000000" />
+    <ImageTarget name="4Al-Ikhlas" size="1.000000 1.000000" />
+    <ImageTarget name="3Al-Falaq" size="1.000000 1.000000" />
+    <ImageTarget name="2An-Nas" size="1.000000 1.000000" />
+    <ImageTarget name="1Al-Fatihah" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
