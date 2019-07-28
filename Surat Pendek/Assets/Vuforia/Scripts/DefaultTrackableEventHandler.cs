@@ -83,7 +83,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region PROTECTED_METHODS
 
-    protected virtual void OnTrackingFound()
+    protected virtual void OnTrackingFound() //ketika marker di scan
     {
         if (mTrackableBehaviour)
         {
@@ -108,7 +108,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     }
 
 
-    protected virtual void OnTrackingLost()
+    protected virtual void OnTrackingLost() //ketika marker tidak di scan
     {
         if (mTrackableBehaviour)
         {
